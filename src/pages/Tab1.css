@@ -1,4 +1,14 @@
-body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+import React from 'react';
+import { IonContent } from '@ionic/react';
+
+function Example() {
+  return (
+    <>
+      <IonContent color="light" className="ion-padding">
+        <h1>Light content</h1>
+        <p>Here's a small text description for the content. Nothing more, nothing less.</p>
+      </IonContent>
+    </>
+  );
 }
+export default Example;
