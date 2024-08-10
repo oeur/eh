@@ -1,0 +1,7 @@
+{
+  "name": "exo-horo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
